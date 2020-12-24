@@ -2,11 +2,16 @@ body{
     font-family: 'Roboto Slab', serif;
 
 }
-
+.bg-black{
+    background-color: #000;
+}
 .main-header{
     height: 700px;
     background-image: url(../images/header-bg.jpg);
     background-size: cover
+}
+.navbar{
+    transition: all 0.4s;
 }
 .navbar .navbar-brand{
     color: #fed136;
@@ -95,9 +100,8 @@ body{
 
 
 .categories{
-      background-color: #f9f9f9;
-    height:300px
-        font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
 }
 .categories h2{
     font-size: 30px;
